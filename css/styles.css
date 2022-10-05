@@ -105,3 +105,24 @@ img {
 .attribution a {
     color: hsl(288, 45%, 44%);
 }
+
+/* media queries */
+@media(max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .card-daniel {
+        grid-column: 1;
+    }
+
+    .card-patrick {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .card-kira {
+        grid-column: 1;
+        grid-row: 5;
+    }
+}
